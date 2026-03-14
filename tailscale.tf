@@ -1,5 +1,5 @@
 resource "tailscale_tailnet_key" "one_time_use" {
-  ephemeral     = true
+  ephemeral     = false
   preauthorized = true
   reusable      = false
 
